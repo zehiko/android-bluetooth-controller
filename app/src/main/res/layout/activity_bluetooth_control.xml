@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".BluetoothControlActivity">
+
+    <Button
+           android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:onClick="startDeviceDiscovery"
+            android:enabled="false"
+            android:id="@+id/scan_button"
+            android:text="@string/list_button"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:text="@string/paired_devices"
+        android:id="@+id/paired_list"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pairedDevices"
+        android:layout_gravity="center_horizontal" />
+
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:text="@string/discovered_devices"
+        android:id="@+id/device_list"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textSize="40dp"
+        android:id="@+id/connected_list"
+        android:text="@string/connected_list"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/connectedDevices"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

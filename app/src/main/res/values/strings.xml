@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Bluetooth Controller</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="list_button">Scan</string>
+    <string name="connect_message">Connect to device?</string>
+    <string name="title_activity_bt_communication">Bluetooth Send/Receive</string>
+    <string name="state_text">connecting...</string>
+    <string name="receive_button">Receive</string>
+    <string name="send_button">Send</string>
+    <string name="sending_failed">Sending failed</string>
+    <string name="no_input">Nothing to send</string>
+    <string name="connected_list">Connected devices</string>
+    <string name="disconnect_message">Disconnect from device?</string>
+    <string name="paired_devices">Paired devices</string>
+    <string name="discovered_devices">Discovered devices</string>
+</resources>
